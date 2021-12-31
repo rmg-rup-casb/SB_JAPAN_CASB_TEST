@@ -1,0 +1,299 @@
+top - 14:46:33 up  5:07,  2 users,  load average: 0.37, 1.35, 1.43
+Tasks: 231 total,   1 running, 185 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 35.5 us, 19.4 sy,  0.0 ni, 32.3 id,  0.0 wa,  0.0 hi, 12.9 si,  0.0 st
+KiB Mem :  4015232 total,   239740 free,  2175188 used,  1600304 buff/cache
+KiB Swap:        0 total,        0 free,        0 used.  1699564 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+ 4704 root      20   0 1317024  49084  23792 S  62.5  1.2   8:27.33 rsa
+ 8334 root      20   0  637112 119660  12160 S  25.0  3.0   4:54.84 Suricata-Main
+ 5392 root      20   0 1068660  38988   7292 S  18.8  1.0   1:24.26 named
+ 4718 root      20   0   70020   4524   3524 S  12.5  0.1   3:06.65 redis-server
+    1 root      20   0  117420   5444   3896 S   0.0  0.1   0:04.75 systemd
+    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd
+    3 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 rcu_gp
+    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 rcu_par_gp
+    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:0H-ev
+    9 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_wq
+   10 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcu_tasks_rude_
+   11 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcu_tasks_trace
+   12 root      20   0       0      0      0 S   0.0  0.0   0:05.13 ksoftirqd/0
+   13 root      20   0       0      0      0 I   0.0  0.0   0:09.78 rcu_sched
+   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 migration/0
+   15 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0
+   16 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1
+   17 root      rt   0       0      0      0 S   0.0  0.0   0:00.32 migration/1
+   18 root      20   0       0      0      0 S   0.0  0.0   0:17.62 ksoftirqd/1
+   20 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/1:0H-ev
+   22 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kdevtmpfs
+   23 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 netns
+   26 root      20   0       0      0      0 S   0.0  0.0   0:00.03 kauditd
+  249 root      20   0       0      0      0 S   0.0  0.0   0:00.01 khungtaskd
+  250 root      20   0       0      0      0 S   0.0  0.0   0:00.00 oom_reaper
+  251 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 writeback
+  253 root      20   0       0      0      0 S   0.0  0.0   0:00.35 kcompactd0
+  254 root      25   5       0      0      0 S   0.0  0.0   0:00.00 ksmd
+  255 root      39  19       0      0      0 S   0.0  0.0   0:00.04 khugepaged
+  310 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kintegrityd
+  311 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kblockd
+  313 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 blkcg_punt_bio
+  340 root      20   0    6916    328    276 S   0.0  0.0   0:00.00 sleep
+  668 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 tpm_dev_wq
+  673 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 md
+  677 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 edac-poller
+  683 root     -51   0       0      0      0 S   0.0  0.0   0:00.00 watchdogd
+  780 root       0 -20       0      0      0 I   0.0  0.0   0:00.74 kworker/1:1H-kb
+  834 root      20   0       0      0      0 S   0.0  0.0   0:00.07 kswapd0
+  836 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 xfsalloc
+  837 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 xfs_mru_cache
+  840 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kthrotld
+  853 root      20   0       0      0      0 S   0.0  0.0   0:00.00 xenbus
+  854 root      20   0       0      0      0 S   0.0  0.0   0:00.02 xenwatch
+  889 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 nvme-wq
+  893 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 nvme-reset-wq
+  895 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 nvme-delete-wq
+  934 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 ipv6_addrconf
+  947 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kstrp
+  957 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 zswap-shrink
+  961 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/u31:0
+ 1143 root      20   0    6916    324    276 S   0.0  0.0   0:00.00 sleep
+ 1184 root      20   0    6916    324    276 S   0.0  0.0   0:00.00 sleep
+ 1323 root      20   0    6916    324    276 S   0.0  0.0   0:00.00 sleep
+ 1329 root      20   0    2888    244    196 S   0.0  0.0   0:00.00 sleep
+ 1331 root      20   0    2900    244    196 S   0.0  0.0   0:00.00 sleep
+ 1334 root      20   0    2888    244    196 S   0.0  0.0   0:00.00 sleep
+ 1338 root      20   0    4940    292    240 S   0.0  0.0   0:00.00 sleep
+ 1339 root      20   0    2888    244    196 S   0.0  0.0   0:00.00 sleep
+ 1340 root      20   0    6916    328    276 S   0.0  0.0   0:00.00 sleep
+ 1344 root      20   0    6916    324    276 S   0.0  0.0   0:00.00 sleep
+ 1346 root      20   0  168928   4464   3732 R   0.0  0.1   0:00.00 top
+ 1640 root       0 -20       0      0      0 I   0.0  0.0   0:00.46 kworker/0:1H-kb
+ 1671 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 ata_sff
+ 1684 root      20   0       0      0      0 S   0.0  0.0   0:00.00 scsi_eh_0
+ 1685 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 scsi_tmf_0
+ 1689 root      20   0       0      0      0 S   0.0  0.0   0:00.00 scsi_eh_1
+ 1690 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 scsi_tmf_1
+ 1701 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 xfs-buf/xvda1
+ 1702 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 xfs-conv/xvda1
+ 1703 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 xfs-cil/xvda1
+ 1704 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 xfs-reclaim/xvd
+ 1705 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 xfs-eofblocks/x
+ 1706 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 xfs-log/xvda1
+ 1707 root      20   0       0      0      0 S   0.0  0.0   0:02.67 xfsaild/xvda1
+ 1763 root      20   0   47272   9636   9320 S   0.0  0.2   0:00.42 systemd-journal
+ 1908 root      20   0   42908   4028   2872 S   0.0  0.1   0:00.08 systemd-udevd
+ 2442 root      20   0       0      0      0 I   0.0  0.0   0:09.24 kworker/u30:0-e
+ 2443 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 ena
+ 2496 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 cryptd
+ 2498 root      16  -4   57644   2104   1700 S   0.0  0.1   0:00.04 auditd
+ 2586 root      20   0  101852   1696   1532 S   0.0  0.0   0:00.47 irqbalance
+ 2597 root      20   0   26372   3000   2648 S   0.0  0.1   0:00.05 systemd-logind
+ 2598 dbus      20   0   58256   3976   3504 S   0.0  0.1   0:00.08 dbus-daemon
+ 2600 root      20   0   15680   2468   2240 S   0.0  0.1   0:00.00 incrond
+ 2604 chrony    20   0  120308   3564   3076 S   0.0  0.1   0:00.42 chronyd
+ 2609 rngd      20   0   93984   4584   3744 S   0.0  0.1   0:00.00 rngd
+ 2697 root      20   0  239728   7100   6024 S   0.0  0.2   0:00.00 sudo
+ 2698 root      20   0  122108   3364   2916 S   0.0  0.1   0:00.11 bash
+ 2806 root      20   0  100668   4556   2496 S   0.0  0.1   0:00.00 dhclient
+ 2841 root      20   0  100668   4224   2188 S   0.0  0.1   0:00.03 dhclient
+ 2926 root      20   0  100668   4556   2496 S   0.0  0.1   0:00.01 dhclient
+ 3041 root      20   0  100668   4124   2092 S   0.0  0.1   0:00.03 dhclient
+ 3169 root      20   0   88212   4800   3760 S   0.0  0.1   0:00.05 master
+ 3177 postfix   20   0   88368   6768   5756 S   0.0  0.2   0:00.09 qmgr
+ 3218 root      20   0  110772   7688   6652 S   0.0  0.2   0:00.01 sshd
+ 3220 root      20   0  257656   5596   3472 S   0.0  0.1   0:00.79 rsyslogd
+ 3225 root      20   0  117144   1576   1464 S   0.0  0.0   0:00.04 agetty
+ 3226 root      20   0  116792   1972   1856 S   0.0  0.0   0:00.02 agetty
+ 3228 root      20   0  132992   3060   2436 S   0.0  0.1   0:00.00 crond
+ 3277 root      20   0  119856   2784   2600 S   0.0  0.1   0:00.00 startnetworkman
+ 3278 root      20   0  119856    992    888 S   0.0  0.0   0:00.00 startcontainerd
+ 3279 root      20   0 2052772  61668  24848 S   0.0  1.5   0:29.10 containerd
+ 3283 root      20   0 1401700  10896   7800 S   0.0  0.3   0:01.29 networkmanager
+ 3292 root      20   0  119856   2704   2512 S   0.0  0.1   0:00.00 startexecutor.s
+ 3296 root      20   0 2201888  76008  22940 S   0.0  1.9   0:11.58 executor
+ 3354 root      20   0  709504   7456   4316 S   0.0  0.2   0:01.74 containerd-shim
+ 3360 root      20   0  709248   7524   4320 S   0.0  0.2   0:01.74 containerd-shim
+ 3363 root      20   0  709504   7272   4320 S   0.0  0.2   0:01.74 containerd-shim
+ 3364 root      20   0  709248   7596   4364 S   0.0  0.2   0:01.79 containerd-shim
+ 3365 root      20   0  709248   6992   4236 S   0.0  0.2   0:01.75 containerd-shim
+ 3366 root      20   0  709248   6892   4356 S   0.0  0.2   0:01.67 containerd-shim
+ 3367 root      20   0  709248   6732   4236 S   0.0  0.2   0:01.74 containerd-shim
+ 3368 root      20   0  709504   6976   4236 S   0.0  0.2   0:01.75 containerd-shim
+ 3369 root      20   0  709248   7168   4340 S   0.0  0.2   0:01.79 containerd-shim
+ 3372 root      20   0  709248   7472   4368 S   0.0  0.2   0:01.80 containerd-shim
+ 3374 root      20   0  709248   6796   4300 S   0.0  0.2   0:01.75 containerd-shim
+ 3376 root      20   0  709248   6748   4292 S   0.0  0.2   0:01.69 containerd-shim
+ 3378 root      20   0  709504   7456   4380 S   0.0  0.2   0:01.68 containerd-shim
+ 3380 root      20   0  709504   6740   4284 S   0.0  0.2   0:01.66 containerd-shim
+ 3381 root      20   0  709248   7024   4352 S   0.0  0.2   0:01.65 containerd-shim
+ 3385 root      20   0  709248   7588   4364 S   0.0  0.2   0:01.78 containerd-shim
+ 3387 root      20   0  709248   6576   4344 S   0.0  0.2   0:01.69 containerd-shim
+ 3391 root      20   0  709248   6724   4256 S   0.0  0.2   0:01.65 containerd-shim
+ 3393 root      20   0  709504   7312   4320 S   0.0  0.2   0:01.94 containerd-shim
+ 3394 root      20   0  709248   7408   4256 S   0.0  0.2   0:01.74 containerd-shim
+ 3730 root      20   0    3668   2788   2500 S   0.0  0.1   0:00.00 nexus-init.sh
+ 3738 root      20   0   15860   2672   2384 S   0.0  0.1   0:00.00 nexus-init.sh
+ 3744 root      20   0   15860   2696   2408 S   0.0  0.1   0:00.00 nexus-init.sh
+ 3746 root      20   0   15860   2732   2444 S   0.0  0.1   0:00.00 nexus-init.sh
+ 3749 root      20   0    3668   2836   2548 S   0.0  0.1   0:00.00 nexus-init.sh
+ 3750 root      20   0    3668   2768   2480 S   0.0  0.1   0:00.01 nexus-init.sh
+ 3751 root      20   0   15860   2764   2476 S   0.0  0.1   0:00.01 nexus-init.sh
+ 3752 root      20   0    3668   2816   2532 S   0.0  0.1   0:00.00 nexus-init.sh
+ 3761 root      20   0    3668   2752   2460 S   0.0  0.1   0:00.00 nexus-init.sh
+ 3762 root      20   0   15860   2640   2388 S   0.0  0.1   0:00.00 nexus-init.sh
+ 3765 root      20   0    3668   2724   2436 S   0.0  0.1   0:00.00 nexus-init.sh
+ 3767 root      20   0   15860   2700   2412 S   0.0  0.1   0:00.00 nexus-init.sh
+ 3778 root      20   0    3668   2832   2544 S   0.0  0.1   0:00.00 nexus-init.sh
+ 3789 root      20   0   15860   2708   2416 S   0.0  0.1   0:00.01 nexus-init.sh
+ 3790 root      20   0    3668   2592   2344 S   0.0  0.1   0:00.01 nexus-init.sh
+ 3793 root      20   0    3764   2772   2472 S   0.0  0.1   0:00.01 nexus-init.sh
+ 3796 root      20   0   15860   2808   2524 S   0.0  0.1   0:00.00 nexus-init.sh
+ 3797 root      20   0   15860   2760   2476 S   0.0  0.1   0:00.01 nexus-init.sh
+ 3799 root      20   0   15860   2700   2408 S   0.0  0.1   0:00.00 nexus-init.sh
+ 3803 root      20   0   15860   2776   2492 S   0.0  0.1   0:00.00 nexus-init.sh
+ 4324 root      20   0   15860   2740   2452 S   0.0  0.1   0:00.00 start_firewall_
+ 4366 root      20   0    3764   2804   2548 S   0.0  0.1   0:00.00 start_antivirus
+ 4379 root      20   0   15860   2796   2524 S   0.0  0.1   0:00.00 start-redis-ser
+ 4380 root      20   0    3668   2684   2436 S   0.0  0.1   0:00.00 start-icap-serv
+ 4407 root      20   0   15860   2760   2476 S   0.0  0.1   0:00.00 start_log_forwa
+ 4417 root      20   0   16124   3036   2412 S   0.0  0.1   0:06.19 start_ids.sh
+ 4439 root      20   0   15860   2796   2520 S   0.0  0.1   0:00.00 start-redis-ser
+ 4446 root      20   0    3668   2856   2552 S   0.0  0.1   0:00.00 start_bifrost.s
+ 4476 root      20   0   15860   2696   2444 S   0.0  0.1   0:00.00 start_wan_monit
+ 4484 root      20   0    4220    776    708 S   0.0  0.0   0:00.06 bpfilter_umh
+ 4485 root      20   0   15860   2748   2464 S   0.0  0.1   0:00.16 start_log_rotat
+ 4489 root      20   0    3668   2824   2548 S   0.0  0.1   0:00.00 start.sh
+ 4504 root      20   0    3668   2712   2360 S   0.0  0.1   0:01.31 startap.sh
+ 4514 root      20   0   15992   2916   2528 S   0.0  0.1   0:03.42 start_ips.sh
+ 4523 root      20   0   15860   2808   2512 S   0.0  0.1   0:00.00 start_nexus_man
+ 4551 root      20   0   15992   2908   2416 S   0.0  0.1   0:01.47 start.sh
+ 4557 root      20   0    3668   2840   2544 S   0.0  0.1   0:00.00 start_metrics.s
+ 4569 root      20   0    3668   2560   2312 S   0.0  0.1   0:00.00 start_user_iden
+ 4572 root      20   0   15860   2716   2416 S   0.0  0.1   0:00.00 start_dns_serve
+ 4573 root      20   0    3764   2064   1740 S   0.0  0.1   0:02.31 start_antivirus
+ 4608 root      20   0    3668   1884   1592 S   0.0  0.0   0:03.02 start-icap-serv
+ 4612 root      20   0    3668   2832   2548 S   0.0  0.1   0:00.00 start_rsa.sh
+ 4621 root      20   0    3668    288      0 S   0.0  0.0   0:00.00 start_user_iden
+ 4622 root      20   0  740024  37900  20008 S   0.0  0.9   5:54.49 user-identifier
+ 4656 root      20   0    6916    812    732 S   0.0  0.0   0:00.00 sleep
+ 4671 root      20   0  706484   4444   3632 S   0.0  0.1   0:00.00 trythis
+ 4700 root      20   0  706148   4840   2156 S   0.0  0.1   0:01.15 port-attack-ale
+ 4705 root      20   0   67460   4048   3256 S   0.0  0.1   0:21.09 redis-server
+ 4708 root      20   0    3748   1908   1584 S   0.0  0.0   0:24.05 start_metrics.s
+ 4711 root      19  -1    4272   2052   1832 S   0.0  0.1   0:00.00 ulogd
+ 4730 root      20   0   15860   2856   2500 S   0.0  0.1   0:04.08 run_binaries_dn
+ 4747 root      20   0  647040  12216  10156 S   0.0  0.3   0:00.66 node_exporter
+ 4770 root      20   0    3668   1548   1192 S   0.0  0.0   0:03.13 start-icap-serv
+ 4803 root      20   0    7308   2432   2156 S   0.0  0.1   0:00.39 c-icap
+ 4848 root      20   0    3668   2560   2312 S   0.0  0.1   0:00.00 start_traffic_p
+ 4859 root      20   0    3668   2124   1788 S   0.0  0.1   0:03.84 start_traffic_p
+ 4874 root      20   0  724252  12928  11540 S   0.0  0.3   0:00.02 rulehandler
+ 4896 root      20   0 1989188  86452  10212 S   0.0  2.2   5:54.40 bifrost
+ 4972 root      20   0 1020284  40116  18412 S   0.0  1.0   0:12.03 fluent-bit
+ 5117 ec2-user  20   0 1357084   1.1g   5608 S   0.0 29.8   0:18.54 clamd
+ 5297 root      20   0  820916  32048  22348 S   0.0  0.8   0:01.01 nexus-manager
+ 5391 root      20   0  722756  12676  11252 S   0.0  0.3   0:00.02 rulehandler
+ 5396 root      20   0   15860   1644   1312 S   0.0  0.0   0:00.16 run_binaries_dn
+ 5727 root      20   0  723348  14368  12712 S   0.0  0.4   0:00.03 rulehandler_ips
+ 5817 root      20   0  706988   5132   4392 S   0.0  0.1   0:00.02 proxyintf
+ 6832 root      20   0  185528   1532   1192 S   0.0  0.0   0:00.33 c-icap
+ 6833 root      20   0  119992   1532   1192 S   0.0  0.0   0:00.34 c-icap
+ 6834 root      20   0  119992   1532   1192 S   0.0  0.0   0:00.34 c-icap
+ 6966 root      20   0   27816   2548   1880 S   0.0  0.1   0:00.00 sslproxy
+ 6967 65534     20   0  523472   2756   2076 S   0.0  0.1   0:00.54 sslproxy
+ 7031 root      20   0  709504   7608   4920 S   0.0  0.2   0:01.80 containerd-shim
+ 7049 root      20   0    3668   2592   2348 S   0.0  0.1   0:00.01 nexus-init.sh
+ 7075 root      20   0    3668   2700   2452 S   0.0  0.1   0:00.00 start_fwagent.s
+ 7202 root      20   0  728756  24448  16220 S   0.0  0.6   0:00.78 fwagent
+ 7715 root      20   0   97404   9840   7648 S   0.0  0.2   0:00.00 squid
+ 7759 ec2-user  20   0  139784  28436  12360 S   0.0  0.7   0:01.55 squid
+ 7765 ec2-user  20   0   14284   3660   3264 S   0.0  0.1   0:00.03 security_file_c
+ 7766 ec2-user  20   0   14284   3692   3296 S   0.0  0.1   0:00.02 security_file_c
+ 7768 ec2-user  20   0   14284   3712   3320 S   0.0  0.1   0:00.03 security_file_c
+ 7778 ec2-user  20   0   14284   3716   3320 S   0.0  0.1   0:00.03 security_file_c
+ 7779 ec2-user  20   0   14284   3632   3240 S   0.0  0.1   0:00.02 security_file_c
+ 7910 ec2-user  20   0    7236   2448   2276 S   0.0  0.1   0:00.02 log_file_daemon
+ 8332 root      20   0  725836  14108  11436 S   0.0  0.4   0:00.64 rulehandler
+ 8333 root      20   0 1102140 160192  19468 S   0.0  4.0   0:35.61 rocket
+10582 root      20   0  707412   6128   3356 S   0.0  0.2   0:03.17 firewall-manage
+12398 root      20   0  150568   8412   7124 S   0.0  0.2   0:00.00 sshd
+12568 ec2-user  20   0  150568   4408   3076 S   0.0  0.1   0:01.06 sshd
+12573 ec2-user  20   0  122108   3332   2920 S   0.0  0.1   0:00.01 bash
+14125 root      20   0 1266972  43772   6516 S   0.0  1.1   1:30.85 Suricata-Main
+15600 root      20   0       0      0      0 I   0.0  0.0   0:04.30 kworker/1:1-eve
+23901 root      20   0    2888    240    196 S   0.0  0.0   0:00.00 sleep
+24379 root      20   0  150568   8624   7336 S   0.0  0.2   0:00.00 sshd
+24416 ec2-user  20   0  150568   4472   3152 S   0.0  0.1   1:12.64 sshd
+24417 ec2-user  20   0  122108   3216   2932 S   0.0  0.1   0:00.00 bash
+24452 ec2-user  20   0  184284   8128   6080 S   0.0  0.2   1:44.16 ssh
+24589 root      20   0       0      0      0 I   0.0  0.0   0:01.82 kworker/u30:2-e
+25192 root      20   0       0      0      0 I   0.0  0.0   0:09.42 kworker/u30:3-e
+26194 postfix   20   0   88308   6728   5704 S   0.0  0.2   0:00.00 pickup
+26431 root      20   0       0      0      0 I   0.0  0.0   0:00.12 kworker/0:2-eve
+26960 root      20   0       0      0      0 I   0.0  0.0   0:07.72 kworker/0:1-eve
+27148 root      20   0  709504   7012   4320 S   0.0  0.2   0:00.57 containerd-shim
+27165 root      20   0   18388   3160   2860 S   0.0  0.1   0:00.00 nexus-dev-debug
+27291 root      20   0   72312   5744   5012 S   0.0  0.1   0:00.00 sshd
+28086 root      20   0       0      0      0 I   0.0  0.0   0:04.73 kworker/1:2-eve
+30153 root      20   0       0      0      0 I   0.0  0.0   0:00.13 kworker/u30:1-e
+
+
+
+#####
+
+[root@ip-10-119-10-132 ec2-user]# free -m
+              total        used        free      shared  buff/cache   available
+Mem:           3921        2124         231           2        1564        1659
+Swap:             0           0           0
+[root@ip-10-119-10-132 ec2-user]# cat /proc/meminfo 
+MemTotal:        4015232 kB
+MemFree:          241492 kB
+MemAvailable:    1698080 kB
+Buffers:            1376 kB
+Cached:          1540252 kB
+SwapCached:            0 kB
+Active:           396432 kB
+Inactive:        3083504 kB
+Active(anon):       1224 kB
+Inactive(anon):  1847756 kB
+Active(file):     395208 kB
+Inactive(file):  1235748 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:              5864 kB
+Writeback:             0 kB
+AnonPages:       1938468 kB
+Mapped:           362844 kB
+Shmem:              2992 kB
+KReclaimable:      55368 kB
+Slab:             211592 kB
+SReclaimable:      55368 kB
+SUnreclaim:       156224 kB
+KernelStack:       11872 kB
+PageTables:        19512 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     2007616 kB
+Committed_AS:    8890628 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       20168 kB
+VmallocChunk:          0 kB
+Percpu:             6208 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      161792 kB
+DirectMap2M:     4032512 kB
+[root@ip-10-119-10-132 ec2-user]# 
